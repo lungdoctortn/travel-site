@@ -1,0 +1,16 @@
+.row {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 15px;
+
+    @mixin atMedium {
+        grid-template-columns: 2fr 3fr;
+    }
+
+    &__column {
+        width: 100%;
+    }
+}

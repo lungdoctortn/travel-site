@@ -40,4 +40,14 @@
     &--b-margin-large {
         margin-bottom: 1.6em;
     }
+
+    &--no-t-margin {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+
+        @mixin atMedium {
+            margin-top: 0;
+            margin-bottom: 1.6rem;
+        }
+    }
 }

@@ -9,6 +9,22 @@
         max-width: 976px;
     }
 
+    &--b-margin {
+
+        @mixin atSmaller {
+            margin-bottom: 1rem;
+        }
+
+        @mixin atSmall {
+            margin-bottom: 1rem;
+        }
+
+        @mixin atMedium {
+            margin-bottom: 2rem;
+        }
+
+    }
+
     .wrapper {
         padding-left: 0;
         padding-right: 0;
