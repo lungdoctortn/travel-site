@@ -1,0 +1,14 @@
+.our-features {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+    strong {
+        font-weight: 800;
+    }
+
+    &__icon {
+        margin-right: 10px;
+        position: relative;
+        top: 5px;
+    }
+}
