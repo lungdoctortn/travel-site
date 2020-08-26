@@ -1,0 +1,26 @@
+.section-title {
+    font-size: 3.75rem;
+    font-weight: 300;
+    text-align: center;
+
+    strong {
+        font-weight: 500;
+    }
+
+    &__icon {
+        margin-right: .5rem;
+        position: relative;
+        top: .5rem;
+    }
+
+    &__row {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 100px;
+
+        @mixin atMedium {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+
