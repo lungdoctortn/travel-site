@@ -20,7 +20,12 @@
 
     &__columns {
         display: grid;
-        grid-auto-rows: 1fr;;
+
+        @mixin atMedium {
+            grid-auto-rows: 1fr; /* This sets the rows at equal heights */
+        }
+
+        
     }
 
     @mixin atMedium {
