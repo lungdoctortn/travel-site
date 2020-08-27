@@ -1,0 +1,50 @@
+.testimonials {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    max-width: 1200px;
+    column-gap: 1.5rem;
+    margin-top: 150px;
+
+    &__single {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        align-items: center;
+
+        &--image {
+            border: 3px solid white;
+            border-radius: 50%;
+            align-self: center;
+            overflow: hidden;
+            margin-top: -100px;
+
+            img {
+                position: relative;
+                top: 2px;
+                transform: scale(1.05)
+            }
+        }
+        
+        &--prose {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &--title {
+            margin: 10px 0 0;
+            color: $mainBlue;
+            font-size: 2em;
+        }
+
+        &--subtitle {
+            margin: 10px 0 10px;
+            color: $mainOrange;
+            font-size: 1rem;
+        }
+
+        &--description {
+            padding: 0 1rem;
+        }
+    }
+}
