@@ -1,6 +1,6 @@
 .section-title {
     font-size: 3.75rem;
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
 
     strong {
@@ -10,7 +10,7 @@
     &__icon {
         margin-right: .5rem;
         position: relative;
-        top: .5rem;
+        top: 1rem;
     }
 
     &__row {
@@ -22,5 +22,10 @@
             grid-template-columns: 1fr 1fr;
         }
     }
+
+    &--blue {
+        color: $mainBlue;
+    }
+
 }
 
